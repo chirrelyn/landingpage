@@ -11,16 +11,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #551036;
+  color: #f7f7fc;
 }
 
 a {
-  color: #aa2081;
+  color: #eaedf5;
   text-decoration: none;
 }
 
 a:hover {
-  color: #bb24a7;
+  color: #dfdde6;
   text-decoration: none;
 }
 
@@ -52,13 +52,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #f55af5;
+  color: #e4e5ec;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #861a6b;
-  color: #8d205f;
+  background: #e5e7ec;
+  color: #e8def3;
 }
 
 .back-to-top.active {
@@ -73,7 +73,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 80px;
-  background: rgba(25, 28, 31, 0.8);
+  background: rgba(189, 188, 182, 0.8);
 }
 
 #header.header-transparent {
@@ -148,7 +148,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(240, 132, 61, 0.25);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -162,7 +162,7 @@ h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 400;
-  color: #3b434a;
+  color: #c47c11;
   letter-spacing: 1px;
 }
 
@@ -234,7 +234,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(36, 41, 46, 0.9);
+  background: rgba(216, 220, 224, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -254,7 +254,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #3d4747;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -317,7 +317,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/another-bg.jpg") top right;
+  background: url("../img/another-bg.png") top right;
   background-size: cover;
   position: relative;
 }
@@ -348,11 +348,11 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 100px;
   font-family: "Satisfy", serif;
-  color: #460c33;
+  color: #9dacee;
 }
 
 #hero h2 {
-  color: #460c33;
+  color: #f3ebf0;
   margin-bottom: 50px;
   font-size: 20px;
   font-weight: 500;
@@ -409,7 +409,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(150, 34, 105);
+  background-color: rgb(241, 233, 238);
 }
 
 .section-title {
@@ -424,7 +424,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #3b434a;
+  color: #7660d8;
   position: relative;
   z-index: 2;
 }
@@ -464,7 +464,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #4e0f44;
+  background-color: #eed7ea;
   min-height: 40px;
   margin-top: 78px;
 }
@@ -503,7 +503,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #7c146b;
+  color: #eee0ec;
   content: "/";
 }
 
@@ -527,7 +527,7 @@ section {
 .about {
   width: 100%;
   height: 100vh;
-  background: url("../img/another-bg.jpg") top right;
+  background: url("../img/another-bg.png") top right;
   background-size: cover;
   position: relative;
 }
@@ -535,7 +535,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 50px;
-  color: #a01c6e;
+  color: #ecebe9;
   text-transform: uppercase;
 }
 
@@ -557,7 +557,7 @@ section {
 .about .content ul i {
   font-size: 50px;
   margin-right: 5px;
-  color: #a01c6e;
+  color: #7e145b;
   line-height: 0;
 }
 
@@ -654,12 +654,21 @@ section {
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
+.resume {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/another-bg.png") top right;
+  background-size: cover;
+  position: relative;
+}
+
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3b434a;
+  color: #ee9090;
 }
 
 .resume .resume-item {
@@ -674,13 +683,13 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  color: #d8dae7;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #eef0f2;
+  background: #eb9393;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -707,64 +716,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #b8beb8;
   border: 2px solid #82909c;
-}
-
-/*--------------------------------------------------------------
-# My Services
---------------------------------------------------------------*/
-.services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  text-align: center;
-  border: 1px solid #fff;
-}
-
-.services .icon {
-  margin: 0 auto 20px auto;
-  padding-top: 17px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 72px;
-  height: 72px;
-  background: #fff4df;
-}
-
-.services .icon i {
-  font-size: 36px;
-  line-height: 1;
-  color: #ffb727;
-}
-
-.services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: #111;
-  transition: 0.3s;
-}
-
-.services .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-.services .icon-box:hover {
-  border-color: #ffb727;
-}
-
-.services .icon-box:hover .title a {
-  color: #ffb727;
 }
 
 /*--------------------------------------------------------------
@@ -872,6 +825,15 @@ section {
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/another-bg.png") top right;
+  background-size: cover;
+  position: relative;
+}
+
+
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
@@ -886,7 +848,7 @@ section {
   line-height: 1;
   padding: 7px 10px;
   text-transform: uppercase;
-  color: #444444;
+  color: #f3ecec;
   transition: all 0.3s ease-in-out;
   border: 2px solid #fff;
 }
@@ -1028,122 +990,21 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #ffb727;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -12px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #ffb727;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
-}
-
-.pricing .btn-buy {
-  background: #ffb727;
-  display: inline-block;
-  padding: 8px 35px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-  background: #ffc85a;
-}
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #ffb727;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #ffb727;
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/another-bg.png") top right;
+  background-size: cover;
+  position: relative;
+}
+
+
 .contact .info-box {
-  color: #444444;
+  color: #e7e1db;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(234, 236, 238, 0.6);
   padding: 20px 0 30px 0;
 }
 
@@ -1157,7 +1018,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: #bd6c3d;
   font-weight: 700;
   margin: 10px 0;
 }
