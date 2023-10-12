@@ -608,10 +608,24 @@ section {
   color: #a01c6e;
 }
 
-.about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+.image {
+  background-image: url("../img/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .image {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .image {
+    min-height: 100vh;
+  }
 }
 
 .about .skills-content {
@@ -706,18 +720,6 @@ section {
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #b8beb8;
-  border: 2px solid #82909c;
 }
 
 /*--------------------------------------------------------------
